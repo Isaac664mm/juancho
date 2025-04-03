@@ -1,0 +1,28 @@
+Inicio
+Define hora, min, seg como enteros
+hora=0 
+min=0
+seg=0
+Escribe "Dame la hora"
+Leer hora
+Escribe "Dame los minutos"
+Leer min
+Escribe "Dame los segundos"
+Leer seg
+
+Si (hora<23)
+	Si (min<59)
+		Si (seg<59)
+			seg =seg+1
+			Escribe "hora, seg, min"
+		Sino
+			seg=0
+			min=min+1
+		Fin si
+	sino
+		min=0
+		h=h+1
+sino
+	h=0
+finsi
+
